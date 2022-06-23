@@ -1,0 +1,179 @@
+/* Selectors */
+body{
+  font-family: 'Montserrat';
+  font-size: 1rem;
+  height: auto;
+  width: auto;
+}
+
+h1{
+  font-family: Kreon-regular;
+  font-size: 4rem;
+ }
+
+ a{
+   font-weight: bold;
+   color: #EEEEFE;
+   margin: 3%;
+   text-decoration: none;
+   font-family:  'Montserrat', sans-serif;
+ }
+/* classes */
+
+/* home page */
+
+.list{
+
+  padding: 0;
+  font-weight: bold;
+}
+
+@media (max-width: 1050px) {
+  .list{
+    padding: 2% 6%;
+    font-weight: bold;
+  }
+}
+
+
+.middle-list{
+  padding: 2% 5%;
+  font-weight: bold;
+}
+
+.container-fluid{
+  padding: 2% 14% 5%;
+}
+
+.Navi{
+  background-color: #EEEEFE;
+}
+
+.navbar-light .navbar-brand{
+  color: #F5B553;
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+.home{
+  padding: 0 14%;
+  background-color: #EEEEFE;
+  margin: 0;
+  text-align: left;
+  z-index: -1;
+}
+
+.coffe-image{
+  padding-left:10%;
+}
+
+.bg{
+  height: 36rem;
+  position: absolute;
+  z-index: 1;
+  filter: drop-shadow(16px 16px 10px black);
+}
+
+@media (max-width: 992px) {
+  .bg{
+    display: none;
+  }
+}
+
+.intial-info{
+  padding: 1% 0;
+  line-height: 2;
+}
+
+.home-buttons{
+  margin: 3% 9% 7% 0;
+}
+
+/* menu page*/
+
+.titles{
+  color: #F5B553;
+  margin-top: 10%
+}
+
+.title1{
+  margin-right: 9%;
+  padding-left: 0;
+  color: #52616B;
+  font-weight: bold;
+}
+
+.menu{
+  background-color: #1E2022;
+  color: #F0F5F9;
+  padding-top: 5rem;
+  padding: 5% 14% 7%;
+}
+
+ .coffee-brew{
+   margin: 15% 7% 5% 0;
+   height: 70%;
+   width: 85%;
+ }
+
+ .menu-list{
+   padding: 5% 0 5% 3%;
+   line-height: 2;
+   font-size: 1rem;
+ }
+
+ .disc{
+  color: #52616B;
+  font-size: 1rem;
+  line-height: 2;
+ }
+
+/* testinomials page */
+
+.testinomials{
+  background-color: #EEEEFE;
+  padding: 5% 14% 7%;
+}
+
+.test{
+  padding: 5%;
+  padding-top: 2%;
+  margin-top: 2%;
+
+  color: #EEEEFE;
+
+}
+
+.carousel-item{
+  padding: 3% 15%;
+  background-color: #1E2022;
+}
+
+.press-images{
+  margin: 20px 20px 15px;
+  padding: 5% 10%;
+  height: 80;
+  width: 100%;
+
+}
+
+.press{
+  background-color: #EEEEFE;
+  color: #52616B;
+  padding: 5% 10%;
+
+  text-align: center;
+  align-items: center;
+}
+
+/* footer */
+
+.footer{
+  background-color: #1E2022;
+  color: #EEEEFE;
+  padding: 5% 14% 2%;
+}
+
+.footer-links{
+  margin: 8%;
+}
